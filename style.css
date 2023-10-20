@@ -21,7 +21,7 @@
     color:whitesmoke;
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
 }
@@ -93,7 +93,7 @@ nav h2{
  } 
 
 nav h1{
-    margin-top:4px;
+    margin-top:0px;
     margin-left:40px;
     border:2px solid white;
     height:40px;
@@ -168,4 +168,6 @@ nav h1:hover{
     nav{
         margin-top: 0px;
     }
+    #interface-container{
+        height:70vh;
 }
