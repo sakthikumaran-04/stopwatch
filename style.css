@@ -86,12 +86,17 @@ nav{
 }
 nav h2{
     position:absolute;
+    height:60px;
     width:100%;
-    top:35px;
+    top:43px;
     left:50%;
     transform: translate(-50%,-50%);
  } 
-
+#back{
+    height:30px;
+    margin-left: 10%;
+    z-index: 2;
+}
 nav h1{
     margin-top:0px;
     margin-left:40px;
